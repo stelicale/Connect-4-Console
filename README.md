@@ -24,7 +24,7 @@ Pentru a susține consumul ridicat al ecranului și al difuzorului, sistemul est
 - **Output Vizual (Display TFT):** Comunică cu Arduino prin protocolul SPI pentru a randa interfața grafică și piesele care cad.
 - **Output Audio (DFPlayer Mini + Difuzor 3W):** Comunică cu Arduino via UART (Serial). Citește efectele sonore de pe cardul MicroSD și le amplifică direct în difuzor.
 
-![Block Diagram](Images/connect_4_block_diagram.png)
+![Block Diagram](Images/Connect_4_block_diagram.png)
 
 ## Hardware Design
 
@@ -42,7 +42,7 @@ Pentru a susține consumul ridicat al ecranului și al difuzorului, sistemul est
 - Fire de conexiune (Dupont tată-tată, mamă-tată)
 - Rezistențe (ex: 1k Ohm pentru TX-ul către DFPlayer, rezistențe de pull-down pentru butoane)
 
-![Pins Layout](Images/connect_4_pins_layout.png)
+![Pins Layout](Images/Connect_4_pins_layout.png)
 
 ## Software Design
 
